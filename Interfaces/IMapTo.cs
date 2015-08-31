@@ -8,8 +8,7 @@ namespace AutoMapperConfig.Interfaces
     {
     }
 
-    public interface IMapTo<Class> : IMapFrom<Class, PascalCaseNamingConvention, PascalCaseNamingConvention>
-                                     where Class : class
+    public interface IMapTo<Class> where Class : class
     {
     }
 }

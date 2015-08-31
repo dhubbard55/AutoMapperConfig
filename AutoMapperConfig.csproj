@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoMapperConfig.cs" />
+    <Compile Include="Interfaces\IAutoMapperConfigModule.cs" />
     <Compile Include="Interfaces\ICustomMapping.cs" />
     <Compile Include="Interfaces\IMapFrom.cs" />
     <Compile Include="Interfaces\IMapTo.cs" />
